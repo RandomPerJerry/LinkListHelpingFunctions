@@ -56,26 +56,4 @@ class LinkList:
 
 
 
-            
-
-
-
-
 my_LinkList = LinkList()
-
-for n in range(10):
-    my_LinkList.push(n)
-
-my_head = my_LinkList.head
-
-my_list1 = []
-my_list2 = []
-
-my_LinkList.list_all_values(my_list1)
-
-print(my_list1)
-
-
-
-
-
